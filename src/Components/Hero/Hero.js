@@ -130,10 +130,10 @@ function Hero() {
 
           <div class="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
             <img
-              src="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?auto=format&q=75&fit=crop&w=1000"
+              src="/1.JPG"
               loading="lazy"
               alt=""
-              class="h-full w-full object-cover object-center"
+              class="h-full w-full   object-center"
             />
           </div>
         </section>

@@ -16,7 +16,7 @@ function Examination() {
                     <img
                       class="object-cover object-center mx-auto rounded-lg shadow-2xl"
                       alt="hero"
-                      src="https://wickedblocks.dev/assets/images/placeholders/squareCard.png"
+                      src="/img/_DSC0430.JPG"
                     />
                   </div>
                 </div>
@@ -28,23 +28,24 @@ function Examination() {
                 Examination Procedure{" "}
               </span>
               <h1 class="mb-8 text-4xl font-bold leading-none tracking-wide text-neutral-600 md:text-7xl lg:text-2xl">
-                What We Offer :
+                What Students and Admins will do :
               </h1>
               <p class="mb-4 text-base leading-relaxed text-left text-gray-500">
-                Free and Premium themes, UI Kit's, templates and landing pages
-                built with Tailwind CSS, HTML & Next.js.
+                1. Admins to set the entire exam including exam questions,ans
+                and exam timing,and they an also invigilate online if they want.
               </p>
               <p class="mb-4 text-base leading-relaxed text-left text-gray-500">
-                Free and Premium themes, UI Kit's, templates and landing pages
-                built with Tailwind CSS, HTML & Next.js.
+                2. For admins ,there are two section in the navbar, Exam and
+                result management.They can edit the results also.
               </p>
               <p class="mb-4 text-base leading-relaxed text-left text-gray-500">
-                Free and Premium themes, UI Kit's, templates and landing pages
-                built with Tailwind CSS, HTML & Next.js.
+                3. For Students ,they will be logging into the server and see
+                the list of available exams and can attempt the exams.
               </p>
               <p class="mb-4 text-base leading-relaxed text-left text-gray-500">
-                Free and Premium themes, UI Kit's, templates and landing pages
-                built with Tailwind CSS, HTML & Next.js.
+                4. For the result and certiicates purpose ,students will go to
+                the result portal and enter their roll number to get there
+                certificate.
               </p>
             </div>
           </div>

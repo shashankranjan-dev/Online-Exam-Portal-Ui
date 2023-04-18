@@ -7,7 +7,7 @@ function Service() {
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
             <p className="inline-block px-1 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              Brand new
+              Presenting -
             </p>
           </div>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -39,8 +39,8 @@ function Service() {
             Services We Provide To You
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+            Take a glance at the services we provide in our platform. Quick tour
+            of the services are listed below.
           </p>
         </div>
         <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -61,72 +61,11 @@ function Service() {
                   />
                 </svg>
               </div>
-              <h6 className="mb-2 font-semibold leading-5">The deep ocean</h6>
+              <h6 className="mb-2 font-semibold leading-5">
+                Proctored Assessment
+              </h6>
               <p className="mb-3 text-sm text-gray-900">
-                A flower in my garden, a mystery in my panties. Heart attack
-                never stopped old Big Bear.
-              </p>
-            </div>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </a>
-          </div>
-          <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
-            <div>
-              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                <svg
-                  className="w-12 h-12 text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
-              </div>
-              <h6 className="mb-2 font-semibold leading-5">When has justice</h6>
-              <p className="mb-3 text-sm text-gray-900">
-                Rough pomfret lemon shark plownose chimaera southern sandfish
-                kokanee northern sea.
-              </p>
-            </div>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </a>
-          </div>
-          <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
-            <div>
-              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                <svg
-                  className="w-12 h-12 text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
-              </div>
-              <h6 className="mb-2 font-semibold leading-5">Organically grow</h6>
-              <p className="mb-3 text-sm text-gray-900">
-                A slice of heaven. O for awesome, this chocka full cuzzie is as
-                rip-off as a cracker.
+                Camera proctored Assessment.Plagarism checker is also included.
               </p>
             </div>
             <a
@@ -155,11 +94,72 @@ function Service() {
                 </svg>
               </div>
               <h6 className="mb-2 font-semibold leading-5">
-                A slice of heaven
+                MCQ Based Assessment
               </h6>
               <p className="mb-3 text-sm text-gray-900">
-                Disrupt inspire and think tank, social entrepreneur but
-                preliminary thinking think tank compelling.
+                Full control of question setting is given to an admin account.
+              </p>
+            </div>
+            <a
+              href="/"
+              aria-label=""
+              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            >
+              Learn more
+            </a>
+          </div>
+          <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+            <div>
+              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+                <svg
+                  className="w-12 h-12 text-deep-purple-accent-400"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+              <h6 className="mb-2 font-semibold leading-5">Online Courses</h6>
+              <p className="mb-3 text-sm text-gray-900">
+                Some paid and free courses that are in demand are provided to
+                students.
+              </p>
+            </div>
+            <a
+              href="/"
+              aria-label=""
+              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            >
+              Learn more
+            </a>
+          </div>
+          <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+            <div>
+              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+                <svg
+                  className="w-12 h-12 text-deep-purple-accent-400"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+              <h6 className="mb-2 font-semibold leading-5">Certification</h6>
+              <p className="mb-3 text-sm text-gray-900">
+                If provided by company,certification are also provided in our
+                portal.
               </p>
             </div>
             <a

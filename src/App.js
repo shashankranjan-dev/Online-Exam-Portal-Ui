@@ -1,26 +1,17 @@
 import Navbar from "./Components/Navbar/Navbar";
-import Hero from "./Components/Hero/Hero";
-import Company from "./Components/Company/Company";
-import Examination from "./Components/Examination/Examination";
-import Service from "./Components/Service/Service";
-import Event from "./Components/Event/Event";
-import Testimonials from "./Components/Testimonials/Testimonials";
-import Contact from "./Components/Contact/Contact";
+import { Routes, Route } from "react-router-dom";
+import { HeroPage, AboutPage, CoursePage } from "./pages/index";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
-      <Company />
-      <Service />
-      <Examination />
-      <Event />
-      <Testimonials />
 
-      <div className="mt-auto sm:mt-40">
-        <Contact />
-      </div>
+      <Routes>
+        <Route path="/" element={<HeroPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/course" element={<CoursePage />} />
+      </Routes>
     </div>
   );
 }

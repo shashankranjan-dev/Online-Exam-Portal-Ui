@@ -35,7 +35,7 @@ export default function MyApp() {
                 <div className="mt-14 md:flex">
                   <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
                     <img
-                      src="https://i.ibb.co/4g1D9cv/imgslider1.png"
+                      src="./img/wow1.jpg"
                       alt="image of profile"
                       className="w-full h-full flex-shrink-0 object-fit object-cover shadow-lg rounded"
                     />
@@ -60,7 +60,7 @@ export default function MyApp() {
                     </div>
                     <div className="md:mt-0 mt-8">
                       <p className="text-base font-medium leading-4 text-gray-800">
-                        Anna Smith
+                        Shuvam Halder
                       </p>
                       <p className="text-base leading-4 mt-2 mb-4 text-gray-600">
                         Senior Web Designer
