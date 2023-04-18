@@ -2,6 +2,16 @@ import React, { useState } from "react";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [isShow, setIsShow] = useState(false);
+
+  function toggleDropdown() {
+    setIsOpen(!isOpen);
+  }
+  function toggledown() {
+    setIsShow(!isShow);
+  }
+
   return (
     <div>
       <div class="px-4 py-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -52,26 +62,83 @@ function Navbar() {
                 About Us
               </a>
             </li>
-            <li>
-              <a
-                href="/"
-                aria-label="Product pricing"
-                title="Product pricing"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+
+            <div className="relative">
+              <div
+                className="flex items-center cursor-pointer"
+                onClick={toggleDropdown}
               >
-                Students
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                aria-label="About us"
-                title="About us"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                <span className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                  Students
+                </span>
+                <svg
+                  className={`transition-transform duration-200 transform ${
+                    isOpen ? "rotate-180" : ""
+                  }`}
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 2a.75.75 0 01.75.75v12.5L14.251 13a.75.75 0 11.498 1.379l-4.501 3.25a.75.75 0 01-.748 0l-4.501-3.25a.75.75 0 01.498-1.379l3.5 2.5V2.75A.75.75 0 0110 2z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </div>
+              <ul
+                className={`${
+                  isOpen ? "" : "hidden"
+                } absolute bg-white py-2 w-32 mt-4 shadow-neutral-500 rounded-md shadow-md`}
               >
-                Admins
-              </a>
-            </li>
+                <li className="px-4 py-2  hover:bg-gray-100 cursor-pointer">
+                  Take Exam
+                </li>
+                <hr />
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                  Check Result
+                </li>
+              </ul>
+            </div>
+
+            <div className="relative">
+              <div
+                className="flex items-center cursor-pointer"
+                onClick={toggledown}
+              >
+                <span className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                  Admins
+                </span>
+                <svg
+                  className={`transition-transform duration-200 transform ${
+                    isShow ? "rotate-180" : ""
+                  }`}
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 2a.75.75 0 01.75.75v12.5L14.251 13a.75.75 0 11.498 1.379l-4.501 3.25a.75.75 0 01-.748 0l-4.501-3.25a.75.75 0 01.498-1.379l3.5 2.5V2.75A.75.75 0 0110 2z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </div>
+              <ul
+                className={`${
+                  isShow ? "" : "hidden"
+                } absolute bg-white py-2 w-44 mt-4 shadow-neutral-500 rounded-md shadow-md`}
+              >
+                <li className="px-4 py-2  hover:bg-gray-100 cursor-pointer">
+                  Exam Management
+                </li>
+                <hr />
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                  Result Management
+                </li>
+              </ul>
+            </div>
+
             <li>
               <a
                 href="/"
@@ -184,26 +251,53 @@ function Navbar() {
                           About Us
                         </a>
                       </li>
-                      <li>
-                        <a
-                          href="/"
-                          aria-label="Product pricing"
-                          title="Product pricing"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      <div className="relative">
+                        <div
+                          className="flex items-center cursor-pointer"
+                          onClick={toggleDropdown}
                         >
-                          Students
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/"
-                          aria-label="About us"
-                          title="About us"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          <span className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                            Students
+                          </span>
+                        </div>
+                        <ul
+                          className={`${
+                            isOpen ? "" : "hidden"
+                          } absolute bg-white py-2 w-32 mt-4 shadow-neutral-500 rounded-md shadow-md`}
                         >
-                          Admins
-                        </a>
-                      </li>
+                          <li className="px-4 py-2  hover:bg-gray-100 cursor-pointer">
+                            Take Exam
+                          </li>
+                          <hr />
+                          <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                            Check Result
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div className="relative">
+                        <div
+                          className="flex items-center cursor-pointer"
+                          onClick={toggledown}
+                        >
+                          <span className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                            Admins
+                          </span>
+                        </div>
+                        <ul
+                          className={`${
+                            isShow ? "" : "hidden"
+                          } absolute bg-white py-2 w-44 mt-4 shadow-neutral-500 rounded-md shadow-md`}
+                        >
+                          <li className="px-4 py-2  hover:bg-gray-100 cursor-pointer">
+                            Exam Management
+                          </li>
+                          <hr />
+                          <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                            Result Management
+                          </li>
+                        </ul>
+                      </div>
                       <li>
                         <a
                           href="/"

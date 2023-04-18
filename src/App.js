@@ -17,6 +17,7 @@ function App() {
       <Examination />
       <Event />
       <Testimonials />
+
       <div className="mt-auto sm:mt-40">
         <Contact />
       </div>
